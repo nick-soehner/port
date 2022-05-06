@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 300px;
+        fill: #fad4af;
+        font-family: Facit;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fad4af;
+        stroke-width: 30px;
+      }
+    </style>
+  </defs>
+  <text id="N" class="cls-1" transform="translate(140.411 357.548) scale(1.045)">N</text>
+  <circle class="cls-2" cx="250" cy="250" r="249"/>
+</svg>

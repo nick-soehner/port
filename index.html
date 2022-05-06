@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Soehner</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/n.png">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="./jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <!-- LOADER -->
+
+    <div class="loader">
+        <svg height="200" width="200">
+            <circle class="circle" cx="100" cy="100" r="95" stroke="#fad4af" stroke-width="10" fill-opacity="0" />
+        </svg>
+        <div class="logo">
+            <p>N</p>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="./images/n.png" alt="logo" style="width: 50px;">
+                </a>
+            </div>
+            <img src="./images/bars-solid.svg" alt="menu bar" id="menu-bar">
+            <nav class="large-nav">
+                <a href="#about">
+                    <li>about</li>
+                </a>
+                <a href="#work">
+                    <li>work</li>
+                </a>
+                <a href="#contact">
+                    <li>contact</li>
+                </a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- MOBILE NAV -->
+
+    <nav class="mobile-nav" style="display: none;">
+        <h2 class="text-light close">X</h2>
+        <a href="#about">
+            <li>about</li>
+        </a>
+        <a href="#work">
+            <li>work</li>
+        </a>
+        <a href="#contact">
+            <li>contact</li>
+        </a>
+    </nav>
+
+    <!-- LANDING -->
+
+    <div id="landing">
+        <div class="landing-container">
+            <p class="text-secondary">Hi, my name is</p>
+            <h1 class="text-light">Nick Soehner.</h1>
+            <div class="textbox">
+                <p class="text-white">I'm a Front End Developer striving to create exceptional digital projects. Working
+                    towards making beautiful and accessible projects to better serve the world. </p>
+            </div>
+            <a href="#contact">
+                <button class="btn-contact">Reach Out</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div id="about">
+        <div class="about-container">
+            <div class="text">
+                <h2 class="text-light">about me</h2>
+                <p class="text-white">Hello! My name is Nick and I love to code. What started as a hobby making
+                    automated light switches with raspberry pi's has turned into a full on obsession with programming.
+                </p>
+                <p class="text-white">I love to watch myself grow with the technology around me. I learn something new
+                    everyday and I am a better programmer because of it. I strive to make my projects better everytime I
+                    touch them and amaze myself everyday at my progress! Building responsive and interactive webpages is
+                    my specialty, and making sure that the web is accessible for everyone who uses it. Making the web
+                    inclusive for all!</p>
+                <p class="text-white">Coding is my passion and I hope to influence others through my coding journey.</p>
+                <br>
+                <p class="text-light">My favorite technologies</p>
+                <div class="languages-list">
+                    <ul class="language">
+                        <li>JavaScript (ES6+)</li>
+                        <li>React</li>
+                        <li>JQuery</li>
+                    </ul>
+                    <ul class="language">
+                        <li>HTML</li>
+                        <li>Node.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="profile-pic">
+                <img src="./images/IMG_1832.JPG" alt="">
+                <div class="outline"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WORK -->
+
+    <div id="work">
+        <div class="title-box">
+            <h2 class="text-light">my projects</h2>
+        </div>
+        <div class="work-container">
+
+            <!-- License Plate App -->
+
+            <div class="project-wrapper">
+                <div class="project-img">
+                    <img src="./images/plate.PNG" alt="">
+
+                </div>
+                <div class="project-content">
+                    <h2 class="text-white project-name">License Plate App</h2>
+                    <p class="project-info">The License Plate App was my first fully functioning app deployed to the App
+                        Store. Created for my mom who, "can't find a good license plate app". Created with React Native
+                        and implements using AsyncStorage and other interactive environments to make it simple and fast
+                        for all users!</p>
+                    <div class="project-languages">
+                        <p class="language-item">React Native</p>
+                        <p class="language-item">Expo</p>
+                        <p class="language-item">Xcode</p>
+                        <p class="language-item">AsyncStorage</p>
+                        <p class="language-item">App Store</p>
+                    </div>
+                    <div class="project-links">
+                        <a target="_blank" href="https://github.com/nick-soehner/LicenseApp"><span class="iconify"
+                                data-icon="eva:github-outline"></span></a>
+                        <a target="_blank" href=""><span class="iconify" data-icon="akar-icons:link-out"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weather App-->
+
+            <div class="project-wrapper">
+                <div class="project-img project-img-even">
+                    <img src="./images/weather.PNG" alt="">
+
+                </div>
+                <div class="project-content-even">
+                    <h2 class="text-white project-name">Weather App</h2>
+                    <p class="project-info">Weather App was my first large scale React App. It implements using
+                        geolocation and openweather api. Calling data based on location or a location that you can set.
+                        Displaying custom weather advice based on your set preferences that are stored to LocalStorage
+                        and can be updated at any point!</p>
+                    <div class="project-languages-even">
+                        <p class="language-item">React</p>
+                        <p class="language-item">Weather API</p>
+                        <p class="language-item">Styled Components</p>
+                        <p class="language-item">LocalStorage</p>
+                    </div>
+                    <div class="project-links">
+                        <a target="_blank" href="https://github.com/nick-soehner/weather-app"><span class="iconify"
+                                data-icon="eva:github-outline"></span></a>
+                        <a target="_blank" href="http://weatherapp.nicksoehner.com/"><span class="iconify"
+                                data-icon="akar-icons:link-out"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tavern -->
+
+            <div class="project-wrapper">
+                <div class="project-img">
+                    <img src="./images/tavern.PNG" alt="">
+                </div>
+                <div class="project-content">
+                    <h2 class="text-white project-name">The Tavern</h2>
+                    <p class="project-info">Fully interactive and responsive webpage for author Antony Soehner. Page was
+                        hard coded with HTML, CSS, and JavaScript, including JQuery and ScrollMagic libaries.</p>
+                    <div class="project-languages">
+                        <p class="language-item">HTML</p>
+                        <p class="language-item">Styled Components</p>
+                        <p class="language-item">JS</p>
+                        <p class="language-item">Git</p>
+                        <p class="language-item">PHP</p>
+                    </div>
+                    <div class="project-links">
+                        <a target="_blank" href="https://github.com/nick-soehner/tavern"><span class="iconify"
+                                data-icon="eva:github-outline"></span></a>
+                        <a target="_blank" href="https://nick-soehner.github.io/tavern/"><span class="iconify"
+                                data-icon="akar-icons:link-out"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carwash -->
+
+            <div class="project-wrapper">
+                <div class="project-img project-img-even">
+                    <img src="./images/carwash.PNG" alt="car wash">
+                </div>
+                <div class="project-content-even">
+                    <h2 class="text-white project-name">Gary's Carwash</h2>
+                    <p class="project-info">A small but efficient website created for a local car wash business in my
+                        hometown. Created from hard coded HTML, CSS, and JQuery. Includes interactive forms created
+                        through PHP and back-end services.</p>
+                    <div class="project-languages-even">
+                        <p class="language-item">HTML</p>
+                        <p class="language-item">CSS</p>
+                        <p class="language-item">JavaScript</p>
+                        <p class="language-item">Git</p>
+                        <p class="language-item">PHP</p>
+                    </div>
+                    <div class="project-links">
+                        <a target="_blank" href="https://github.com/nick-soehner/garys-carwash"><span class="iconify"
+                                data-icon="eva:github-outline"></span></a>
+                        <a target="_blank" href="https://www.garyscarwash.com/"><span class="iconify"
+                                data-icon="akar-icons:link-out"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+        <div class="contact-container">
+            <div class="form-container">
+                <div class="form-header">
+                    <h2 class="text-light form-title">contact</h2>
+                    <p class="text-white form-subtext">feel free to reach out!</p>
+                </div>
+                <form action="form.php" id="contact-form" method="POST" enctype="multipart/form-data">
+                    <input class="form-text" type="text" placeholder="Name" name="fname">
+                    <input class="form-text" type="email" placeholder="Email" name="email">
+                    <textarea class="form-text" name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                </form>
+                <button class="submit-btn" type="submit" name="submit" form="contact-form">submit</button>
+            </div>
+            <div class="form-outline"></div>
+            <div class="copyright">
+                <p class="text-light">copyright © 2022 | Nick Soehner</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
