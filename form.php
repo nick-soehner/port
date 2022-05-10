@@ -104,7 +104,6 @@
     }
 
         ?>
-            <h1 class="text-light">Thank you for your submission!</h1>
             <a href="./index.html">
                 <button class="btn-contact">go back</button>
             </a>
