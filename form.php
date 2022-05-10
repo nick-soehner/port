@@ -35,13 +35,13 @@
                 </a>
             </div>
             <nav>
-                <a href="#about">
+                <a href="./index.html#about">
                     <li>about</li>
                 </a>
-                <a href="#work">
+                <a href="./index.html#work">
                     <li>work</li>
                 </a>
-                <a href="#contact">
+                <a href="./index.html#contact">
                     <li>contact</li>
                 </a>
             </nav>
